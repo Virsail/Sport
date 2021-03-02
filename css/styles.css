@@ -6,6 +6,9 @@ h1 {
     float: inline-end;
     background-color:#1C2331;
 }
+
+/*styling for the div container*/
+
 .container {
     padding-left: 0rem;
     padding-right: 0rem;
@@ -13,9 +16,24 @@ h1 {
 
 }
 
+/*styling for the first image in container div*/
+
 .firstimage {
     height: 50vh;
     padding-left: 0rem;
     padding-right: 0rem;
     padding-bottom: 0rem;
+}
+
+/*styling for the second image*/
+
+.secondimage {
+    height: 50vh;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    padding-bottom: 0rem;
+}
+
+.thirdimage {
+
 }
