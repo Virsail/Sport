@@ -14,8 +14,8 @@ h1 {
     padding-right: 0rem;
     padding-bottom: 0rem;
     display: flex;
-    background-color:yellow;
-    height: 15vh;
+    background-color:#1C2331;
+    height: 12vh;
 
 }
 
@@ -29,8 +29,6 @@ h1 {
     display: flex;
     float: left;
     width: 75%;
-    background-color: aliceblue;
-
 }
 
 /*styling for the second image*/
@@ -66,4 +64,5 @@ h1 {
     display: flex;
     padding-bottom: 0rem;
     float: right;
+    width: 75%;
 }
