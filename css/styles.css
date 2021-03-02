@@ -2,18 +2,20 @@
 
 h1 {
     text-align: center;
-    color:yellow;
+    color:white;
     float: inline-end;
     background-color:#1C2331;
 }
 
 /*styling for the div container*/
 
-.container {
+.jowo {
     padding-left: 0rem;
     padding-right: 0rem;
     padding-bottom: 0rem;
     display: flex;
+    background-color:yellow;
+    height: 15vh;
 
 }
 
@@ -27,6 +29,7 @@ h1 {
     display: flex;
     float: left;
     width: 75%;
+    background-color: aliceblue;
 
 }
 
