@@ -53,3 +53,14 @@ h1 {
     float: right;
     width: 75%;
 }
+
+/*styling for the fourth image*/
+
+.fourthimage {
+    height: 15vh;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    display: flex;
+    padding-bottom: 0rem;
+    float: right;
+}
