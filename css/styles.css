@@ -13,27 +13,43 @@ h1 {
     padding-left: 0rem;
     padding-right: 0rem;
     padding-bottom: 0rem;
+    display: flex;
 
 }
 
 /*styling for the first image in container div*/
 
 .firstimage {
-    height: 50vh;
+    height: 15vh;
     padding-left: 0rem;
     padding-right: 0rem;
     padding-bottom: 0rem;
+    display: flex;
+    float: left;
+    width: 75%;
+
 }
 
 /*styling for the second image*/
 
 .secondimage {
-    height: 50vh;
+    height: 15vh;
     padding-left: 0rem;
     padding-right: 0rem;
+    display: flex;
     padding-bottom: 0rem;
+    float: center;
+    width: 75%;
 }
 
-.thirdimage {
+/*styling for the third image*/
 
+.thirdimage {
+    height: 15vh;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    display: flex;
+    padding-bottom: 0rem;
+    float: right;
+    width: 75%;
 }
