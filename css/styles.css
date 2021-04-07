@@ -15,8 +15,12 @@ h1 {
     padding-bottom: 0rem;
     display: flex;
     background-color:#1C2331;
-    height: 12vh;
+    height: 15vh;
 
+}
+
+#manting {
+    background-color: yellow;
 }
 
 /*styling for the first image in container div*/
