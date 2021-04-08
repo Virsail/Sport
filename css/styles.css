@@ -76,3 +76,8 @@ h1 {
 #smthngelse {
     background-color: yellow;
 }
+.inbox {
+    background-color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
