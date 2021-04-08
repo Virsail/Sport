@@ -70,10 +70,51 @@ h1 {
     float: right;
     width: 75%;
 }
+/*firsticon styling*/
+
 #firsticon {
-    color: green;
-    background-image: url(../assets/background3.jpg);
+    height: 3vh;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    display: flex;
+    padding-bottom: 0rem;
+    float: right;
+    width: 25%;
 }
+/*secondicon styling*/
+
+#secondicon {
+    height: 3vh;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    display: flex;
+    padding-bottom: 0rem;
+    float: right;
+    width: 25%;
+}
+/*thirdicon styling*/
+
+#thirdicon {
+    height: 3vh;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    display: flex;
+    padding-bottom: 0rem;
+    float: right;
+    width: 25%;
+}
+/*four the icon*/
+
+#fourthicon {
+    height: 3vh;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    display: flex;
+    padding-bottom: 0rem;
+    float: right;
+    width: 25%;
+}
+
 #smthngelse {
     background-color: yellow;
 }
