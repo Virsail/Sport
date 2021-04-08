@@ -72,6 +72,7 @@ h1 {
 }
 #firsticon {
     color: green;
+    background-image: url(../assets/background3.jpg);
 }
 #smthngelse {
     background-color: yellow;
