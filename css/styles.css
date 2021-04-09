@@ -128,3 +128,7 @@ h1 {
     margin: 20px;
     background-color: gray;
 }
+
+.img-fluid {
+    padding-bottom: 1rem;
+}
