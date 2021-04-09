@@ -73,3 +73,20 @@ $(document).ready(function(){
     alert("WE have received your message ,thank you for reaching out to Delani studio");
   });
 });
+
+
+/* function for the web page response*/
+
+$(document).ready(function() {
+    $("button#hello").click(function() {
+      $("ul").prepend("<li>Hello!</li>");
+    });
+
+    $("button#goodbye").click(function() {
+      $("ul").prepend("<li>Goodbye!</li>");
+    });
+
+    $("button#stop").click(function() {
+      $("ul").prepend("<li>Stop copying me!</li>");
+    });
+  });
