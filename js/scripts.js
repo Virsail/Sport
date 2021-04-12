@@ -69,7 +69,7 @@ $(document).ready(function() {
 })
 $(document).ready(function(){
   $(".section6").submit(function(){
-    alert("WE have received your message ,thank you for reaching out to Delani studio");
+    alert("WE have received your message ,thank you for reaching out to Our Website");
   });
 });
 
