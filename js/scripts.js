@@ -78,14 +78,14 @@ $(document).ready(function(){
 
 $(document).ready(function() {
     $("button#hello").click(function() {
-      $("ul").prepend("<li>Hello!</li>");
+      $("ul").prepend("<li>jambo!</li>");
     });
 
     $("button#goodbye").click(function() {
-      $("ul").prepend("<li>Goodbye!</li>");
+      $("ul").prepend("<li>So this is the Car website!</li>");
     });
 
     $("button#stop").click(function() {
-      $("ul").prepend("<li>Stop copying me!</li>");
+      $("ul").prepend("<li>Stop copying me damn it!</li>");
     });
   });
