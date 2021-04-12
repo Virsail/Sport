@@ -134,17 +134,16 @@ h1 {
 }
 /*styling for the animated */
 #bgimg{
-    background: url(../assets/v8.jpg);
+    background: url(../assets/bmw.jpg);
     width:100%;
     background-size: cover;
     background-repeat: no-repeat;
-    height:90vh;
+    height:75vh;
 }
 
 #hero {
   width: 100%;
-  height: 90vh;
-  background: url(../assets/mountain_bggray.jpg);
+  height: 75vh;
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -170,4 +169,13 @@ h1 {
    background-attachment: fixed;
   }
 }
+.jara {
+    width:100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:90vh;
+}
 
+body {
+    overflow-x: hidden;
+}
