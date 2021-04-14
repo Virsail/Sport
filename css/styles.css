@@ -134,16 +134,16 @@ h1 {
 }
 /*styling for the animated */
 #bgimg{
-    background: url(../assets/bmw.jpg);
+    background: url(../assets/slide1.jpg);
     width:100%;
     background-size: cover;
     background-repeat: no-repeat;
-    height:75vh;
+    height:78vh;
 }
 
 #hero {
   width: 100%;
-  height: 75vh;
+  height: 78vh;
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
