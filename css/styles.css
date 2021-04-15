@@ -214,8 +214,10 @@ input[type=text],input[type=email],textarea[name=message] {
 
 
 .section4 {
-    background-image: url(../assets/Organic-Food-626x380.jpg);
+    background-image: url(../assets/organic2.jpeg);
     height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
     font-family: 'Fira Sans', sans-serif;
     text-align: center;
     color: white;
