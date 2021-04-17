@@ -270,3 +270,19 @@ h6 {
 body {
     overflow-x: hidden;
 }
+
+/*style the footer section*/
+
+.color {
+    text-align: center;
+    background-color: #1C2331;
+    color: white;
+}
+
+
+
+.twitter {
+    float: right;
+    background-color:#1C2331 ;
+}
+
