@@ -278,11 +278,32 @@ body {
     background-color: #1C2331;
     color: white;
 }
-
-
-
 .twitter {
     float: right;
     background-color:#1C2331 ;
 }
+
+/*styling for the Contact Us Page*/
+
+.masthead {
+    height: 50vh;
+    min-height: 500px;
+    background-image: url('/assets/organic5.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .masthead1 {
+    height: 50vh;
+    min-height: 500px;
+    background-image: url('/assets/organic4.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  #contact .card:hover i,#contact .card:hover h4{
+	color: #87d37c;
+}
+
+/*contact form styling*/
 
