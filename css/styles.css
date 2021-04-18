@@ -227,7 +227,8 @@ input[type=text],input[type=email],textarea[name=message] {
 /*bootstrap card class styling*/
 
  .card-img-top {
-     height: 500px;
+     height: 600px;
+     
  }
 
  .card-body card-body-cascade text-center rgba-black-strong {
