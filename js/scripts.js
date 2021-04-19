@@ -75,7 +75,41 @@ $(document).ready(function(){
 
 
 
-  //show cart adding to cart
+// function for showing add to cart button
+
+$(document).ready(function(){
+  $('.offer').mouseenter(function(){
+      $(this).find('.icon').show('slow');
+      $('.icon').css('background-color', 'crimson');
+      $('.icon').mouseenter(function(){
+          $('.icon').css('background-color', 'green')
+      })
+      // add this
+      $('.icon').mouseleave(function(){
+          $('.icon').css('background-color', 'crimson')
+      })
+      // ends here
+  })
+  $('.offer').mouseleave(function(){
+      $(this).find('.icon').hide('slow');
+  })
+
+  $('.img-container').mouseenter(function(){
+      $(this).find('.store').show('slow');
+  })
+  $('.img-container').mouseleave(function(){
+      $(this).find('.store').hide('slow');
+  })
+
+  $('.icon').click(function(){
+      swal("Item added to cart", "Continue Shopping", "success");
+  })
+
+  
+
+})
+
+//show cart
 
 (function(){
   const cartInfo = document.getElementById('cart-info');
@@ -136,7 +170,7 @@ const cart = document.getElementById('cart');
 const total = document.querySelector('.cart-total-container');
 
 cart.insertBefore(cartItem, total);
-swal('item added to the cart', 'continue with your shopping', 'success');
+alert('item added to the cart');
 showTotals();
 
           }
@@ -163,25 +197,4 @@ showTotals();
       document.getElementById('item-count').textContent = total.length;
   }
 })();
-
-// function for showing add to cart button
-
-$(document).ready(function(){
-  $('.card').mouseenter(function(){
-      $(this).find('.store-item-icon .fas').show();
-      $('.store-item-icon .fas').css('color', 'red');
-      $('.store-item-icon .fas').mouseenter(function(){
-          $('.store-item-icon .fas').css('color', 'green')
-      })
-      $('.store-item-icon .fas').mouseleave(function(){
-          $('.store-item-icon .fas').css('color', 'red')
-      })
-  })
-  $('.card').mouseleave(function(){
-      $(this).find('.store-item-icon .fas').hide();
-  })
-  $('.store-item-icon .fas').click(function(){
-      swal("Item added to cart", "continue with your shopping", "success");
-  })
-})
-
+  
