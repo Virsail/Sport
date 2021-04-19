@@ -197,4 +197,7 @@ showTotals();
       document.getElementById('item-count').textContent = total.length;
   }
 })();
+
+
+//end of cart display section
   
