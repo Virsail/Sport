@@ -436,3 +436,8 @@ body {
     display: table;
     clear: both;
 }
+.check {
+    background-image: url(../assets/organic4.jpeg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
