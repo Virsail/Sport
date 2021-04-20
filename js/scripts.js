@@ -221,54 +221,54 @@ function ddselect1()
     document.getElementById("textvalue1").value=displayText;
 }
 
-//object for pizza//
-var pizza = {
-    size: ["Large", "Small", "Medium"],
-    crust: ["Crispy", "Stuffed", "Gluten free", "Scrumbled"],
+//object for grocery//
+var grocer = {
+    option: ["Veggie", "Fruit", "Herb"],
+    quantity: ["200g", "450g", "500g", "900g"],
     toppings: ["pepperoni","mushrooms","onions", "sausage","bacon", "extra cheese"],
   };  
 
-  //object for pizza prices,crust and toppings//
-  var pizzaPrice = {
-    size: ["Large = 800", "Small = 200", "Medium = 400"],
-    crust: ["Crispy = 400", "Stuffed = 350", "Gluten free = 300", "Scrumbled = 250"],
+  //object for grocer prices,quantity and toppings//
+  var grocerPrice = {
+    option: ["Veggie = 800", "Fruit = 200", "Herb = 400"],
+    quantity: ["200g = 400", "450g = 350", "500g = 300", "900g = 250"],
     toppings: ["pepperoni = 600", "mushrooms = 550", "onions = 500", "sausage = 450","bacon = 400", "extra cheese = 350"],
   };
 
-  //consrtuctor for pizza//
-  function pizza (size, crust, toppings) {
-    this.size = size;
-    this.crust = crust;
+  //consrtuctor for grocery//
+  function grocer (option, quantity, toppings) {
+    this.option = option;
+    this.quantity = quantity;
     this.toppings = toppings;
   }
 
  // business logic//
-function pizza (size, crust, toppings) {
-    this.size = size;
-    this.crust = crust;
+function grocer (option, quantity, toppings) {
+    this.option = option;
+    this.quantity = quantity;
     this.toppings = toppings;
   }
 
-  pizza.prototype.orderhistory = function() {
-    return this.size + " " + this.crust + " " + this.toppings
+  grocer.prototype.orderhistory = function() {
+    return this.option + " " + this.quantity + " " + this.toppings
   }
 
   //constructor for pizza prices//
-  function pizzaPrice (size, crust, toppings) {
-    this.size = {0: 800, 1: 200, 2: 400};
-    this.crust = {0: 400, 1: 350, 2: 300, 3: 250};
+  function grocerPrice (option, quantity, toppings) {
+    this.option = {0: 800, 1: 200, 2: 400};
+    this.quantity = {0: 400, 1: 350, 2: 300, 3: 250};
     this.toppings = {0: 600, 1: 550, 2: 500, 3: 450, 4: 400, 5: 350};
   }
 
   //business logic//
-  function pizzaPrice (size, crust, toppings) {
-      this.size = {0: 800, 1: 200, 2: 400};
-      this.crust = {0: 400, 1: 350, 2: 300, 3: 250};
+  function grocerPrice (option, quantity, toppings) {
+      this.option = {0: 800, 1: 200, 2: 400};
+      this.quantity = {0: 400, 1: 350, 2: 300, 3: 250};
       this.toppings = {0: 600, 1: 550, 2: 500, 3: 450, 4: 400, 5: 350};
   }
 
-  pizzaPrice.prototype.calculatetotal = function() {
-    return this.size + " " + this.crust + " " + this.toppings
+  grocerPrice.prototype.calculatetotal = function() {
+    return this.option + " " + this.quantity + " " + this.toppings
   }
 
   //function get order history//
@@ -282,25 +282,25 @@ function pizza (size, crust, toppings) {
   var displayText=d.options[d.selectedIndex].text;
   document.getElementById("textvalue1").value=displayText;
 
-  alert("Thank you for choosing Slice of Heaven pizza ,order is being processed");
+  alert("Thank you for choosing i_Grocer ,order is being processed");
   }
 
   //function to check price//
   function checkPrice()
   {
-    var size = document.getElementById("ddselect").value;
+    var option = document.getElementById("ddselect").value;
 
-    if(size == "Large")
+    if(option == "Veggie")
     {
       var price = 800
       document.getElementById("price").value=document.getElementById("quantity").value*price
     }
-    else if(size == "Small")
+    else if(option == "Fruit")
     {
       var price = 200
       document.getElementById("price").value=document.getElementById("quantity").value*price
     }
-    else if(size == "Medium")
+    else if(option == "Herb")
     {
       var price = 400
       document.getElementById("price").value=document.getElementById("quantity").value*price
@@ -323,7 +323,7 @@ function pizza (size, crust, toppings) {
 
   alert("The delivery fee will be 150ksh Thank you!");
   prompt("Enter your location");
-  alert("Awesome the order has been released and will be delivered to the location given");
+  alert("Awesome the order has been placed and will be delivered to the location given");
   }
 
   //checkout function//

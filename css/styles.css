@@ -392,6 +392,33 @@ h2{
     display: none;
 }
 
+.section3 {
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    background: url(../assets/fourth.jpg);
+    height: 150px;
+    color: white;
+}
+
+.section2 {
+    font-size-adjust: auto;
+    font-family: 'Permanent Marker', cursive;
+    background: url(../assets/organic2.jpeg);
+    background-size: cover;
+    color: white;
+    height: 280px;
+    text-align: center;
+}
+
+.section1 {
+    text-align: center;
+    font-size-adjust: auto;
+    font-family: 'Pacifico', cursive;
+    background: url(../assets/vegetable-images/savoykohl.jpg);
+    background-size: cover;
+    height: 700px;
+    color: white;
+}
 body {
     overflow-x: hidden;
 }
