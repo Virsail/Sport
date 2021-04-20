@@ -347,17 +347,16 @@ h2{
 .clear{
     clear: both;
 }
-.veggies{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-}
+
 .veggies{
     float: left;
     margin:0 10px 10px 0;
     width: 285px;
     padding: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
 }
 .veggies img{
     display: block;
