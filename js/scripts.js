@@ -69,7 +69,7 @@ $(document).ready(function() {
 })
 $(document).ready(function(){
   $(".section6").submit(function(){
-    alert("WE have received your message ,thank you for reaching out to i_Grocer");
+    alert("WE have received your message our customer care will respond to your mail ,thank you for reaching out to i_Grocer");
   });
 });
 
