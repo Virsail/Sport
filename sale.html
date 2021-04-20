@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script
+    src="https://code.jquery.com/jquery-3.5.1.js"
+    integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+    crossorigin="anonymous"></script>
+      <script src="./js/scripts.js"></script>
+      <title>SPORTGx</title>
+    </head>
+    <body>
+      <div class="containerfluid">
+        <div class="section1">
+            <p>Please choose your slice below</p>
+            <select id="ddselect" onchange="ddselect();">
+             <option>PIZZA SIZE</option>
+             <option>Large</option> 
+             <option>Small</option>
+             <option>Medium</option>
+            </select>
+            <input type="text" id="textvalue"/><hr>
+            <select id="ddselect1" onchange="ddselect1();">
+             <option>CRUST</option>
+             <option>Crispy</option>
+             <option>Stuffed</option>
+             <option>Gluten free</option>
+             <option>Scrumbled</option>
+            </select>
+            <input type="text" id="textvalue1"/><hr>
+            <P>TOPPINGS</P>
+                 <input type="checkbox" id="pepperoni" class="">
+                 <label for="pepperoni">pepperoni</label>
+                 <input type="checkbox" id="mushrooms" class="">
+                 <label for="mushrooms">mushrooms</label>
+                 <input type="checkbox" id="onions" class="">
+                 <label for="onions">onions</label>
+                 <input type="checkbox" id="sausage" class="">
+                 <label for="sausage">sausage</label>
+                 <input type="checkbox" id="bacon" class="">
+                 <label for="bacon">bacon</label>
+                 <input type="checkbox" id="extra cheese" class="">
+                 <label for="extra cheese">extra cheese</label><hr>
+                 <label for="quantity">Number Of Orders:</label>
+         <input type="number" id="quantity" name="quantity" min="1" max="infinity"><hr>
+                 <button type="button" onclick="getOrderHistory();" >PLACE ORDER</button><hr>
+                 <input type = "button" value = "TOTAL" onclick="checkPrice();"><hr>
+                 PRICE : <input type="text" id="price">
+                 <p>
+                 </div>
+    </div>  
+    <div class="containerfluid">
+      <div class="section2">
+       <p>Thank you for choosing Slice Of Heaven pizza<br>how would you like to receive your order:</p>
+       <button type="button" onclick="checkDelivery();" >DELIVER</button> <button type="button" onclick="nothing();" >NO DELIVERY</button><hr>
+               <button onclick="checkOut();">Checkout</button>
+      </div>
+  </div> 
+
+  <div class="containerfluid">
+    <div class="section3">
+        <p>Like and follow Slice of heaven social medias:</p>
+        <div class="container">
+        <div class="row">
+         <div class="col-md-3">
+             <img src="./css/assests/facebook.png" alt="facebook logo">
+             <p>Slice of heaven</p>
+         </div>
+         <div class="col-md-3">
+             <img src="./css/assests/pinterest.png" alt="pinterest icon">
+             <p>Slice of heaven</p>
+         </div>
+         <div class="col-md-3">
+             <img src="./css/assests/twitter.png" alt="twitter icon">
+             <p>@Slice_of_heaven</p>
+         </div>
+         <div class="col-md-3">
+             <img src="./css/assests/you_tube.png" alt="youtube icon">
+             <p>Slice of heaven fam</p>
+         </div>
+</div>
+</div>
+</body>
+</html>
