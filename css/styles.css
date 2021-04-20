@@ -19,6 +19,7 @@ h1 {
 
 }
 
+
 #manting {
     background-color: yellow;
 }
@@ -422,3 +423,16 @@ body {
     overflow-x: hidden;
 }
 
+
+
+.column {
+    float: left;
+    width: 50%;
+}
+/* clear floats after the columns
+*/
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
